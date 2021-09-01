@@ -11,3 +11,5 @@
 - Haya balasmeh
 
 ### PR
+
+[PR](https://github.com/hayabalasmeh/django-x/pull/1)
