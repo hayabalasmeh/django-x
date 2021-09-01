@@ -13,7 +13,27 @@ html {
 
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
+  
+  
+    background-image: url("https://images.unsplash.com/photo-1621057621106-f32ea9ee7e14?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=709&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+
+
 }
+a { color: black; 
+  text-decoration: none;
+  } 
+  button, input{
+      margin: 20px;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+  }
 
 .container {
   max-width: 960px;

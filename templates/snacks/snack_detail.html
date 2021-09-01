@@ -1,0 +1,13 @@
+{% extends '_base.html' %}
+
+
+{% block content %}
+ <div>
+  <h3>Snack : {{snack.title}}</h3>
+  <p>Purchaser: {{ snack.purchaser }}</p>
+  <p>Description: {{ snack.description }}</p>
+</div>
+<button class="bg-red-500 hover:bg-red-700 ..."><a href="{% url 'snack_list'%}">Home</a></button>
+<button class="bg-red-500 hover:bg-red-700 ..."><a href="{% url 'snack_delete' snack.pk%}">Delete this Snack </a></button>
+<button class="bg-red-500 hover:bg-red-700 ..."><a href="{% url 'snack_update' snack.pk%}">Update this Snack</a> </button>
+{% endblock content %}
