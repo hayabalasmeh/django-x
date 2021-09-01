@@ -14,13 +14,13 @@ class SnacksTest(TestCase):
     def test_string_representation(self):
         self.assertEqual(str(self.snack), "food")
 
-    def test_list_page_status(self):
-        #Arrange
-        url = reverse('snack_list')
-        #Act
-        response = self.client.get(url)
-        #Assert
-        self.assertEqual(response.status_code, 200)
+    # def test_list_page_status(self):
+    #     #Arrange
+    #     url = reverse('snack_list')
+    #     #Act
+    #     response = self.client.get(url)
+    #     #Assert
+    #     self.assertEqual(response.status_code, 200)
         
         
 
